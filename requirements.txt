@@ -1,0 +1,8 @@
+keras
+tensorflow
+matplotlib
+gensim
+numpy
+pandas
+jupyter
+notebook

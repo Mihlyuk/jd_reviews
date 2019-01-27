@@ -1,22 +1,24 @@
 # jd_reviews
 
-### Install project
+### Installation
 
 ```
 git clone https://github.com/Mihlyuk/jd_reviews.git
 cd jd_reviews
-source init_env.sh
+source activate_env.sh
 ```
 
-### File with research
+### Research
 
 ```
 jupyter notebook research.ipynb
 ```
 
-### File for testing you model
+### Script for prediction
 
 ```
-jupyter notebook test_model.ipynb
+python predictor.py --file <path_to_file> [--reviews_count <count>]
+Ex: python predictor.py --file data/reviews.csv 
+Ex: python predictor.py --file data/reviews.csv --reviews_count 1000
 ```
 

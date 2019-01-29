@@ -13,7 +13,13 @@ source activate_env.sh
 ```
 jupyter notebook research.ipynb
 ```
+### Report
 
+```
+jupyter notebook report.ipynb
+```
+
+ jupyter notebook report.ipynb
 ### Script for prediction
 
 ```
